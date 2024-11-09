@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+
+
 html{
     font-size: 62.5%; /* tecnicazinha para colocar o rem mais facil de calcular */
     font-weight: 300;
+    color: var(--cor-branca);
+    font-family: var();
 }
-
 body{
-    background-color: var(--cor-primaria);
+background-color: var(--cor-fundo-cinza-escuro);
 }
 
-h1,p{
-/* font-size: 40px; */
-/* font-family: var(); */
-}
