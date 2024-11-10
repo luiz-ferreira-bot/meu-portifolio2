@@ -2,13 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 
 
-html{
-    font-size: 62.5%; /* tecnicazinha para colocar o rem mais facil de calcular */
+html {
+    font-size: 62.5%;
+    /* tecnicazinha para colocar o rem mais facil de calcular */
     font-weight: 300;
     color: var(--cor-branca);
     font-family: var();
 }
-body{
-background-color: var(--cor-fundo-cinza-escuro);
+
+body {
+    background-color: var(--cor-fundo-cinza-escuro);
+    font-family: var(--font-primaria);
+    font-size: var(--font-normal);
+
 }
 
+img {
+    width: 30%;
+    border-radius: 50%;
+    background-color: aqua;
+}
