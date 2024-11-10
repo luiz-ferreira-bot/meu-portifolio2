@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luiz Ferreira - Desenvolvedor Frontend</title>
-    
-    <link rel="stylesheet" href="css/font-awesome.css">    
+
+    <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
 
     <link rel="stylesheet" href="css/variaveis.css">
 
-<!-- Global -->
- <link rel="stylesheet" href="css/globais.css">
+    <!-- Global -->
+    <link rel="stylesheet" href="css/globais.css">
 
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 </head>
+
 <body>
-    
+
     <header class="header">
-        
+        <div class="container">
+            <div class="row justfy-content-between alinhar-itens-no-centro">
+                <a href="#">
+                    <h1 class="logo">LF</h1>
+                </a>
+
+                <nav>
+                    <input id="menu-hamburguer" type="checkbox" />
+
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+
+                    <ul>
+                        <li><a href="#sobre-mim">Sobre mim</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#Projetos">Meus projetos</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <section class="home"></section>
@@ -31,4 +57,5 @@
 
     <footer class="footer"></footer>
 </body>
+
 </html>

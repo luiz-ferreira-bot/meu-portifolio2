@@ -17,8 +17,19 @@ body {
 
 }
 
-img {
-    width: 30%;
-    border-radius: 50%;
-    background-color: aqua;
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.row{
+    display: flex;
+}
+
+.justfy-content-between{
+    justify-content: space-between;
+}
+
+.alinhar-itens-no-centro{
+    align-items: center;
 }
