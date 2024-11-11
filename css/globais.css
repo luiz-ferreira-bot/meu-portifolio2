@@ -7,7 +7,13 @@ html {
     /* tecnicazinha para colocar o rem mais facil de calcular */
     font-weight: 300;
     color: var(--cor-branca);
-    font-family: var();
+    scroll-behavior: smooth; /* scroll-behavior: smooth --- da uma leve suavidada ao escrolar a page */
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+    /* background-color: lightgrey; */
 }
 
 body {
@@ -17,16 +23,9 @@ body {
 
 }
 
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .justfy-content-between{
@@ -35,4 +34,46 @@ a{
 
 .alinhar-itens-no-centro{
     align-items: center;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.redes-sociais a:hover{
+color: var(--cor-primaria);
+}
+
+.redes-sociais a i{
+    line-height: 40px;
+}
+
+.outer-shadow{
+    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+}
+
+.inner-shadow{
+    box-shadow: inset 3px 3px  3px #222327, inset -3px -3px 3px #454545;
+}
+    
+
+/* --------------------------- */
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 400px;
 }
