@@ -83,7 +83,7 @@ color: var(--cor-primaria);
 
 .botao{
     font-size: var(--font-grande);
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 20px;
     transition: all 0.3s ease;
     background-color: var(--cor-primaria);
@@ -97,14 +97,9 @@ color: var(--cor-primaria);
 
 /* --------------------------- */
 
-li{
-    list-style: none;
-}
+
 a{
     text-decoration: none;
     color: white;
 }
 
-img{
-    width: 400px;
-}
